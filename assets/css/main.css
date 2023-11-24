@@ -2514,13 +2514,13 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-		overflow: hidden;
+		overflow: visible;
 	}
 
 		.image:before {
 			content: '';
 			display: block;
-			position: absolute;
+			position: fixed;
 			left: 0;
 			top: 0;
 			background-image: url("images/overlay.png");
@@ -2556,7 +2556,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 0 2e0m 0;
 			width: 100%;
 		}
 
@@ -3452,7 +3452,7 @@ input, select, textarea {
 	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/banner3.png");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
