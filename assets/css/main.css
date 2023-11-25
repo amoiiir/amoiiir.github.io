@@ -2750,6 +2750,18 @@ input, select, textarea {
 
 		}
 
+		/* for tableau */
+		ul.actions-tableau {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			cursor: default;
+			list-style: none;
+			margin-left: -12em;
+			padding-left: 0;
+		}
+
 /* Table */
 
 	.table-wrapper {
