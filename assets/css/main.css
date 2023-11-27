@@ -4147,4 +4147,18 @@ input, select, textarea {
   .closebtn:hover {
 	color: black;
   }
+
+  /* Recommendations */
+  #recommendations {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Use your desired font-family here */
+    font-size: 28px; /* Adjust the font size as needed */
+    font-style: italic; /* Use italic font style */
+    /* Add any other styles you want for the recommendation section */
+}
+
+#recommendations h2 {
+    font-size: 32px; /* Larger font size for the section heading */
+    font-weight: bold; /* Optionally, use bold for the section heading */
+}
+
 	
