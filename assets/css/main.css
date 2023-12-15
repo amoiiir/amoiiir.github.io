@@ -99,7 +99,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Roboto", Helvetica, sans-serif;
+		font-family: "Roboto", sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
 		line-height: 1.75em;
@@ -4166,14 +4166,25 @@ input, select, textarea {
   position: relative;
   max-width: 1200px;
   margin: 100px auto;
+  font-family: 'Poppins', sans-serif;
 }
 
 .timecontainer{
 	padding: 10px 50px;
 	position: relative;
 	width: 50%;
-	
-	/* background: rgba(0, 0, 0, 0.3); */
+	/* animation: movedown 1s linear forwards; */
+	/* opacity: 0; */
+}
+
+.timeline small{
+	font-size: 12px;
+}
+
+.timeline p{
+	font-size: 14px;
+	line-height: 22px;
+	margin: 0;
 }
 
 .timetext-box{
@@ -4187,12 +4198,13 @@ input, select, textarea {
 
 .timetext-box h2{
 	color: #181920;
-	font-weight: 600;
+	font-weight: 800;
+	margin-bottom: -2px;
 }
 
 .timetext-box small{
 	display: inline-block;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 
 .left-timecontainer{
@@ -4260,6 +4272,37 @@ input, select, textarea {
 	border-bottom: 15px solid transparent;
 	border-right: 15px solid #ffffff;
 	left: -15px;
+}
+
+@media screen and (max-width: 600px){
+	
+	.timeline{
+		margin: 50px auto;
+	}
+	.timeline ::after{
+		left: 31px;
+	}
+	.timecontainer{
+		width: 100%;
+		padding: 80px 25px;
+	}
+	.timetext-box{
+		font-size: 13px;
+	}
+	.timetext-box small {
+		margin-bottom: 10px;
+	}
+	.right-timecontainer{
+		left: 0;
+	}
+	.left-timecontainer img, .right-timecontainer img{
+		left: 10px;
+	}
+	.left-timecontainer-arrow, .right-timecontainer-arrow{
+		border-right: 15px solid #ffffff;
+		border-left: 0;
+		left: -15px;
+	}
 }
 /* Timeline */
 
