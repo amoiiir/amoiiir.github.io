@@ -4207,21 +4207,37 @@ input, select, textarea {
 	margin-bottom: 20px;
 }
 
-.left-timecontainer{
-	left: 0;
-}
-
-.right-timecontainer{
-	left: 50%;
-}
-
-.timecontainer img{
+.timecontainer > img{
 	position: absolute;
 	width: 40px;
 	border-radius: 50%;
 	right: -20px;
 	top: 32px;
 	z-index: 10;
+}
+
+.timetext-box .image-container {
+    width: 450px; /* Width of the cropped area */
+    height: 300px; /* Height of the cropped area */
+    overflow: hidden;
+    display: block; /* Adjust as needed */
+    margin-top: 10px;
+    border-radius: 0%; /* Adjust if you want rounded corners */
+}
+
+.timetext-box .timeline-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center; /* Adjust to focus on a specific part of the image */
+}
+
+.left-timecontainer{
+	left: 0;
+}
+
+.right-timecontainer{
+	left: 50%;
 }
 
 .right-timecontainer img{
