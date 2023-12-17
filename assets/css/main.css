@@ -4222,7 +4222,7 @@ input, select, textarea {
     overflow: hidden;
     display: block; /* Adjust as needed */
     margin-top: 10px;
-    border-radius: 0%; /* Adjust if you want rounded corners */
+    border-radius: 2%; /* Adjust if you want rounded corners */
 }
 
 .timetext-box .timeline-image {
