@@ -4232,6 +4232,13 @@ input, select, textarea {
     /*object-position: center;  Adjust to focus on a specific part of the image */
 }
 
+/* scalable images */
+@media screen and (max-width: 900px) {
+    .timetext-box .image-container {
+        width: 100%; /* Adjust the width as needed for smaller screens */
+    }
+}
+
 .left-timecontainer{
 	left: 0;
 }
@@ -4321,5 +4328,106 @@ input, select, textarea {
 	}
 }
 /* Timeline */
+
+/* gitStats */
+.gitStats .img1 img {
+    width: 90%; /* Maintains the current size for img1 */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.gitStats .img2 img {
+    width: 90%; /* Set the desired width for img2 */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.gitStats {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+
+.gitStats .img1 {
+    flex: 1 1 45%; /* Keeps current size for img1 container */
+    margin: 10px;
+}
+
+.gitStats .img2 {
+    flex: 1 1 60%; /* Adjust this to control the size of img2 container */
+    margin: 10px;
+}
+
+/* project cards */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+	display: flex;
+    flex-direction: column;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+}
+
+.project-card .project-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-content {
+    padding: 15px;
+    text-align: center;
+	flex-grow: 1; /* Allows content to fill available space */
+}
+
+.tags {
+    padding: 10px 3px; /* Add padding around the tags */
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow tags to wrap to next line */
+    justify-content: left; /* Center the tags horizontally */
+}
+
+.tags .actions {
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    list-style: none; /* Remove list style */
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to next line */
+}
+
+.tags .actions li {
+    margin-right: 2px; /* Space between tags */
+    margin-bottom: 5px; /* Space between rows of tags */
+}
+
+.tags .actions li:last-child {
+    margin-right: 0; /* No right margin for the last tag */
+}
+
+@media screen and (max-width: 900px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* Project cards */
+
+
+
 
 	
