@@ -4356,6 +4356,13 @@ input, select, textarea {
     margin: 10px;
 }
 
+/* Responsive adjustments */
+@media screen and (max-width: 800px) {
+    .gitStats .img1, .gitStats .img2 {
+        flex-basis: 100%; /* Each image takes full width on smaller screens */
+    }
+}
+
 /* project cards */
 .projects-grid {
     display: grid;
