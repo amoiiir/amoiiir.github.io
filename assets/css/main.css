@@ -4358,8 +4358,18 @@ input, select, textarea {
 
 /* Responsive adjustments */
 @media screen and (max-width: 800px) {
+    .gitStats {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .gitStats .img1, .gitStats .img2 {
-        flex-basis: 100%; /* Each image takes full width on smaller screens */
+        flex: 1 1 90%; /* Increase the flex-basis to make the images bigger on smaller screens */
+        margin: 5px;
+    }
+
+    .gitStats .img1 img, .gitStats .img2 img {
+        width: 100%; /* Make images take full width of their containers */
     }
 }
 
