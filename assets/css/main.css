@@ -99,8 +99,8 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Roboto", sans-serif;
-		font-size: 15pt;
+		font-family: 'Poppins', sans-serif;;
+		font-size: 14pt;
 		font-weight: 100;
 		line-height: 1.75em;
 	}
@@ -203,16 +203,16 @@ input, select, textarea {
 	code {
 		background: rgba(255, 255, 255, 0.075);
 		border-radius: 4px;
-		font-family: "Courier New", monospace;
-		font-size: 0.9em;
+		font-family: 'Poppins', sans-serif;;
+		font-size: 0.5em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
 	}
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
-		font-size: 0.9em;
+		font-family: 'Poppins', sans-serif;;
+		font-size: 0.5em;
 		margin: 0 0 2em 0;
 	}
 
@@ -4150,7 +4150,7 @@ input, select, textarea {
 
   /* Recommendations */
   #recommendations {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Use your desired font-family here */
+    font-family: 'Poppins', sans-serif; /* Use your desired font-family here */
     font-size: 28px; /* Adjust the font size as needed */
     font-style: italic; /* Use italic font style */
     /* Add any other styles you want for the recommendation section */
