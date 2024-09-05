@@ -4163,170 +4163,177 @@ input, select, textarea {
 
 /* Timeline */
 .timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 100px auto;
-  font-family: 'Poppins', sans-serif;
-}
-
-.timecontainer{
+	position: relative;
+	max-width: 1200px;
+	margin: 100px auto;
+	font-family: 'Poppins', sans-serif;
+  }
+  
+  .timecontainer {
 	padding: 10px 50px;
 	position: relative;
 	width: 50%;
-	/* animation: movedown 1s linear forwards; */
-	/* opacity: 0; */
-}
-
-.timeline small{
+  }
+  
+  .timeline small {
 	font-size: 12px;
-}
-
-.timeline p{
+  }
+  
+  .timeline p {
 	font-size: 14px;
 	line-height: 22px;
 	margin: 0;
-}
-
-.timetext-box{
+  }
+  
+  .timetext-box {
 	padding: 20px 30px;
 	background: #ffffff;
 	color: #181920;
 	position: relative;
 	border-radius: 6px;
 	font-size: 14px;
-}
-
-.timetext-box h2{
+  }
+  
+  .timetext-box h2 {
 	color: #181920;
 	font-weight: 800;
 	margin-bottom: -2px;
-}
-
-.timetext-box small{
+  }
+  
+  .timetext-box small {
 	display: inline-block;
 	margin-bottom: 20px;
-}
-
-.timecontainer > img{
+  }
+  
+  .timecontainer > img {
 	position: absolute;
 	width: 40px;
 	border-radius: 50%;
 	right: -20px;
 	top: 32px;
 	z-index: 10;
-}
-
-.timetext-box .image-container {
-    width: 450px; 
-    height: 300px; 
-    overflow: hidden;
-    display: block; 
-    margin-top: 10px;
-    border-radius: 2%; 
-}
-
-.timetext-box .timeline-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /*object-position: center;  Adjust to focus on a specific part of the image */
-}
-
-/* scalable images */
-@media screen and (max-width: 900px) {
-    .timetext-box .image-container {
-        width: 100%; /* Adjust the width as needed for smaller screens */
-    }
-}
-
-.left-timecontainer{
-	left: 0;
-}
-
-.right-timecontainer{
+  }
+  
+  .timetext-box .image-container {
+	width: 100%; /* Make the container 100% width of the parent */
+	max-width: 450px; /* Max width to prevent it from getting too large */
+	height: auto; /* Allow the height to scale automatically */
+	overflow: hidden;
+	display: block;
+	margin-top: 10px;
+	border-radius: 2%;
+  }
+  
+  .timetext-box .timeline-image {
+	width: 100%; /* Ensure image fills the container */
+	height: auto; /* Maintain aspect ratio */
+	object-fit: cover; /* Ensure the image covers the container without overflow */
+  }
+  
+  /* Timeline line in the center */
+  .timeline::after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	background-color: #ffffff;
+	top: 0;
+	bottom: 0;
 	left: 50%;
-}
-
-.right-timecontainer img{
-	left: -20px;
-}
-
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 6px;
-  background-color: #ffffff;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
-  /* z-index: -1; */
-  animation: moveline 6s linear forwards;
-}
-
-@keyframes moveline {
-  0% {
-	height: 0;
+	margin-left: -3px;
+	animation: moveline 6s linear forwards;
   }
-  100% {
-	height: 100%;
+  
+  @keyframes moveline {
+	0% {
+	  height: 0;
+	}
+	100% {
+	  height: 100%;
+	}
   }
-}
-
-.left-timecontainer-arrow{
+  
+  /* Arrow for the left and right containers */
+  .left-timecontainer-arrow {
 	height: 0;
 	width: 0;
 	position: absolute;
 	top: 28px;
-	/* z-index: -1; */
 	border-top: 15px solid transparent;
 	border-bottom: 15px solid transparent;
 	border-left: 15px solid #ffffff;
 	right: -15px;
-}
-
-.right-timecontainer-arrow{
+  }
+  
+  .right-timecontainer-arrow {
 	height: 0;
 	width: 0;
 	position: absolute;
 	top: 28px;
-	/* z-index: -1; */
 	border-top: 15px solid transparent;
 	border-bottom: 15px solid transparent;
 	border-right: 15px solid #ffffff;
 	left: -15px;
-}
-
-@media screen and (max-width: 600px){
-	
-	.timeline{
-		margin: 50px auto;
+  }
+  
+  .left-timecontainer {
+	left: 0;
+  }
+  
+  .right-timecontainer {
+	left: 50%;
+  }
+  
+  .right-timecontainer img {
+	left: -20px;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 900px) {
+	.timetext-box .image-container {
+	  width: 100%;
+	  max-width: 100%; /* Ensure container doesn't exceed its parent width */
 	}
-	.timeline ::after{
-		left: 31px;
+  }
+  
+  /* Full width on smaller screens */
+  @media screen and (max-width: 600px) {
+	.timeline {
+	  margin: 50px auto;
 	}
-	.timecontainer{
-		width: 100%;
-		padding: 80px 25px;
+  
+	.timeline::after {
+	  left: 31px; /* Adjust the timeline line position */
 	}
-	.timetext-box{
-		font-size: 13px;
+  
+	.timecontainer {
+	  width: 100%; /* Make the container full width */
+	  padding: 80px 25px;
 	}
+  
+	.timetext-box {
+	  font-size: 13px; /* Slightly reduce the font size */
+	}
+  
 	.timetext-box small {
-		margin-bottom: 10px;
+	  margin-bottom: 10px;
 	}
-	.right-timecontainer{
-		left: 0;
+  
+	.right-timecontainer {
+	  left: 0; /* Align the right container to the left */
 	}
-	.left-timecontainer img, .right-timecontainer img{
-		left: 10px;
+  
+	.left-timecontainer img, .right-timecontainer img {
+	  left: 10px; /* Adjust the image position */
 	}
-	.left-timecontainer-arrow, .right-timecontainer-arrow{
-		border-right: 15px solid #ffffff;
-		border-left: 0;
-		left: -15px;
+  
+	/* Adjust the arrow on small screens */
+	.left-timecontainer-arrow, .right-timecontainer-arrow {
+	  border-right: 15px solid #ffffff;
+	  border-left: 0;
+	  left: -15px;
 	}
-}
+  }
+  
 /* Timeline */
 
 /* gitStats */
