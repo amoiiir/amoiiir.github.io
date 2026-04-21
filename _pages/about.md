@@ -7,7 +7,7 @@ subtitle: a guy with a dream # <a href='#'>Affiliations</a>. Address. Contacts. 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Ampang, Selangor, Malaysia
 
@@ -27,11 +27,11 @@ latest_posts:
 
 Hi there! 👋🏽
 
-My name is Muhammad Amir Hamzah and I am currently an AI automation engineer at [Gamuda Berhad](https://www.gamuda.com.my/). I am a recent graduate from International Islamic University Malaysia (IIUM) with a Bachelor's degree in Information Technology. I am proficient in `SQL` for data manipulation and currently I am exploring the field of software development, particularly in `Python` and `JavaScript`. 
+I’m Muhammad Amir Hamzah, an AI automation engineer at [Gamuda Berhad](https://www.gamuda.com.my/) with a passion for turning ideas into impactful solutions. As a recent graduate from the International Islamic University Malaysia (IIUM) with a Bachelor's degree in Information Technology, I’ve honed my skills in `SQL` for data manipulation and am diving deep into the exciting worlds of `Python` and `JavaScript` for software development.
 
-Previously, I am a:
-- System Engineer @ Perodua Sdn. Bhd.
-- Android Developer Intern @ WAHDAH Technologies Sdn. Bhd.
+My journey so far has been shaped by diverse experiences:
+- **System Engineer** @ Perodua Sdn. Bhd.
+- **Android Developer Intern** @ WAHDAH Technologies Sdn. Bhd.
 
-I am using this as a personal website to share my [blog](https://amoiiir.github.io/blog/), [projects](https://amoiiir.github.io/projects/) and also achievements as a way for me to document my journey in the field of technology. I am also open to collaborations and opportunities, so feel free to hit my direct messages! 💖
+This website is my digital playground—a space to share my [blog](https://amoiiir.github.io/blog/), showcase [projects](https://amoiiir.github.io/projects/), and celebrate milestones as I navigate the ever-evolving tech landscape. I’m always open to collaborations and new opportunities, so don’t hesitate to reach out—let’s create something amazing together! 💡✨
 
