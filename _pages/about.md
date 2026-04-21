@@ -41,3 +41,5 @@ This website is my digital playground—a space to share my [blog](https://amoii
 > This website is currently in its early stages of development, 
 > some of the contents inside of this website are placeholders and will be updated in the future.
 > Stay tuned for more updates! 🚀
+{: .block-danger }
+
