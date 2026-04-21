@@ -35,3 +35,9 @@ My journey so far has been shaped by diverse experiences:
 
 This website is my digital playground—a space to share my [blog](https://amoiiir.github.io/blog/), showcase [projects](https://amoiiir.github.io/projects/), and celebrate milestones as I navigate the ever-evolving tech landscape. I’m always open to collaborations and new opportunities, so don’t hesitate to reach out—let’s create something amazing together! 💡✨
 
+> ##### DANGER
+> 
+> This website is currently in its early stages of development, 
+> some of the contents inside of this website are placeholders and will be updated in the future.
+> Stay tuned for more updates! 🚀
+
