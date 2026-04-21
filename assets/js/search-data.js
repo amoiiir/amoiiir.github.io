@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "My curriculum vitae (CV) showcasing my education, work experience, skills, and achievements in the field of technology. This CV is designed to provide a comprehensive overview of my qualifications and experiences for potential employers, collaborators, and anyone interested in learning more about my professional background.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
