@@ -4,7 +4,7 @@ title: AIris - camera first learning application
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Deployed
 related_publications: true
 ---
 
