@@ -37,13 +37,14 @@ cv:
           - 8 out of 8 dean's list for 8 semesters, which is a recognition of academic excellence and outstanding performance in the university.
 
       - institution: Gamuda AI Academy
-        location: Damansara Jaya, Malaysia
+        location: Damansara, Malaysia
         area: Full Stack AI Development
-        studyType: certificate
+        studyType: Certificate
         start_date: 2026
         end_date: 2026
         highlights:
-          - Camera first language learning application built to help children struggling to learn Bahasa Melayu.
+          - Developed camera first language learning application built to help children struggling to learn Bahasa Melayu.
+          - Integrated computer vision and natural language processing technologies using available Gemini API to create an interactive and engaging learning experience for children.
           - Secured top 3 among 8 groups in the final project presentation.
 
     Experience:
@@ -59,23 +60,23 @@ cv:
 
       - company: WAHDAH Technologies Sdn. Bhd.
         position: Android Developer Intern
-        location: Bukit Katil, Melaka, Malaysia
+        location: Melaka, Malaysia
         start_date: 2024
         end_date: 2024
         highlights:
           - Participated in the development of an Android application for building one of the features of the application, following android development best practices and using Kotlin programming language.
           - Collaborated with the development team to ensure the application was delivered on time and met the requirements of the project.
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+    # Volunteer:
+    #   - company: People's Climate March
+    #     position: Lead Organizer
+    #     location: Zurich, Switzerland
+    #     start_date: 2014-04-01
+    #     end_date: 2015-07-01
+    #     summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    #     highlights:
+    #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+    #       - "Men of the year 2014 by Time magazine"
 
     Awards:
       - title: Nobel Prize in Physics
