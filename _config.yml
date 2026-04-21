@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: Amir Hamzah # the website title (if blank, full name will be used instead)
-first_name: Amir
+first_name: Amir Hamzah
 middle_name: 
-last_name: Hamzah
+last_name: Abd Aziz
 contact_note: >
   Hit me up on my socials above :)
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -89,7 +89,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: My Personal Sharing # blog_name will be displayed in your blog page
+blog_name: My writing # blog_name will be displayed in your blog page
 blog_description: a compilation of my thoughts, ideas, and learnings on various topics. # blog_description will be displayed in your blog page
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -202,6 +202,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _projects/9_project.md 
 keep_files:
   - CNAME
   - .nojekyll
