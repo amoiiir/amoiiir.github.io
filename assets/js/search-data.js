@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-gamuda-intern-iv",
+        },{id: "post-gamuda-ai-academy-journey-into-full-stack-ai-development",
         
-          title: "Gamuda Intern IV",
+          title: "Gamuda AI Academy - Journey into Full Stack AI Development",
         
-        description: "one of the biggest fumbles I ever did",
+        description: "A beautiful place where I am somehow interested to learn on how to integrate AI into software development, and how to use AI to solve real world problems.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/formatting/";
+            window.location.href = "/blog/2026/gamuda-ai-academy/";
           
         },
       },{id: "books-the-godfather",
