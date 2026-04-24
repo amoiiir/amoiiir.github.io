@@ -37,11 +37,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-gamuda-ai-academy-journey-into-full-stack-ai-development",
+        },{id: "post-i-joined-gamuda-ai-academy",
         
-          title: "Gamuda AI Academy - Journey into Full Stack AI Development",
+          title: "I joined Gamuda AI Academy!",
         
-        description: "A beautiful place where I am somehow interested to learn on how to integrate AI into software development, and how to use AI to solve real world problems.",
+        description: "A wonderful place to learn how to integrate AI into software development and solve real-world problems.",
         section: "Posts",
         handler: () => {
           
