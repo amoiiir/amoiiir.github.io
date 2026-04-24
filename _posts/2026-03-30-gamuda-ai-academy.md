@@ -90,16 +90,22 @@ Here are some highlights from our site visits:
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/gamuda_ai/gamuda_google.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/gamuda_ai/g1_google1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/gamuda_ai/g1_gamuda.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
 </div>
 <div class="caption">
     Visits to Gamuda Technologies, Google Malaysia, and Menara Gamuda!
 </div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gamuda_ai/g1_gamuda.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gamuda_ai/g1_google.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A group photo of me and my fellow cute members!
+</div>
+
 
 ---
 

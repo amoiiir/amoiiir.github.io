@@ -90,7 +90,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: My writing # blog_name will be displayed in your blog page
-blog_description: a compilation of my thoughts, ideas, and learnings on various topics. # blog_description will be displayed in your blog page
+blog_description: a compilation of my experiences, reflections, and learnings on various topics. # blog_description will be displayed in your blog page
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
