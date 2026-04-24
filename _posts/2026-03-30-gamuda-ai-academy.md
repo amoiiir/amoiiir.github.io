@@ -108,3 +108,7 @@ Overall, I feel like this is a great opportunity for people to get their hands d
 
 To apply, you can simply go to this link: [Gamuda AI Academy](https://www.gamudaai.academy/) and click on the "Apply Now" button. Do read all the requirements and make sure you know what you signed up for!
 
+
+## Closing
+Thank you very much for reading my first blog, I'll be sharing more about my experience in this academy soon! Stay tuned 🥳
+
