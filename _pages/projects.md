@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: projects
 permalink: /projects/
@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 display_categories: [Deployed, Work In Progress, Proof of Concept] # set to false to display all projects without categorization
 horizontal: false
----
+--- -->
 
 <!-- pages/projects.md -->
 <div class="projects">
