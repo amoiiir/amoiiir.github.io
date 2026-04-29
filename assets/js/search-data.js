@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-i-joined-gamuda-ai-academy",
+        },{id: "post-we-build-airis",
+        
+          title: "We build AIris!",
+        
+        description: "A complete rundown of our capstone project, AIris.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/airis-application/";
+          
+        },
+      },{id: "post-i-joined-gamuda-ai-academy",
         
           title: "I joined Gamuda AI Academy!",
         
