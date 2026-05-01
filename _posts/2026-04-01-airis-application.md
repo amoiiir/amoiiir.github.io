@@ -3,7 +3,7 @@ layout: post
 title: We build AIris!
 date: 2026-04-01 01:00:00
 description: A complete rundown of our capstone project, AIris.
-tags: learning 
+tags: gamuda google 
 featured: false
 toc:
     sidebar: right

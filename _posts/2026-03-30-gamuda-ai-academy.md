@@ -3,7 +3,7 @@ layout: post
 title: I joined Gamuda AI Academy!
 date: 2026-03-30 21:01:00
 description: A wonderful place to learn how to integrate AI into software development and solve real-world problems.
-tags: learning careers
+tags: learning gamuda events
 categories: 
 featured: true
 thumbnail: assets/img/gamuda_ai/cover.jpg

@@ -78,21 +78,21 @@ cv:
     #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
     #       - "Men of the year 2014 by Time magazine"
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    # Awards:
+    #   - title: Nobel Prize in Physics
+    #     authors:
+    #       - "Royal Swedish Academy of Sciences"
+    #     date: 1921-11-01
+    #     awarder: Royal Swedish Academy of Sciences
+    #     url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+    #     summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+    #   - title: Max Planck Medal
+    #     authors:
+    #       - "German Physical Society"
+    #     date: 2029
+    #     awarder: German Physical Society
+    #     summary: Awarded for outstanding scientific achievement
 
     # Publications:
     #   - title: Zur Elektrodynamik bewegter Körper
@@ -120,10 +120,10 @@ cv:
     #     summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
 
     Skills:
-      - name: Physics
-        level: Master
+      - name: Computer Science
+        level: Beginner
         icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords: "Python, Java, C++, SQL, Microsoft SQL Server, Microsoft SQL Server Integration Services (SSIS), Android Development, Kotlin"
 
     Languages:
       - name: English
@@ -133,9 +133,9 @@ cv:
         summary: "Native speaker"
 
     Interests:
-      - name: Physics
+      - name: Mobile Development
         icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords: "Android Development, iOS Development, Kotlin, Swift"
 
     Certificates:
       - name: Comptia Data+ ce
@@ -143,14 +143,14 @@ cv:
         issuer: Comptia
         icon: fa-solid fa-location-dot
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+    # Projects:
+    #   - name: Quantum Computing
+    #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    #     highlights:
+    #       - Quantum Teleportation
+    #       - Quantum Cryptography
+    #     start_date: 2018-01-01
+    #     end_date: 2018-01-01
 
     # References:
     #   - name: Professor John Doe
