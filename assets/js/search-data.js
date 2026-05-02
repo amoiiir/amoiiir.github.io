@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "My GitHub repositories and contributions.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "My curriculum vitae (CV) showcasing my education, work experience, skills, and achievements in the field of technology. This CV is designed to provide a comprehensive overview of my qualifications and experiences for potential employers, collaborators, and anyone interested in learning more about my professional background.",
