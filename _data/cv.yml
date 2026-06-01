@@ -48,6 +48,17 @@ cv:
           - Secured top 3 among 8 groups in the final project presentation.
 
     Experience:
+      - company: Gamuda Berhad Sdn. Bhd.
+        position: Intern, Gamuda Capital
+        location: Damansara Perdana, Malaysia
+        start_date: 2026
+        end_date: 2026
+        summary: Being part of Gamuda current AI adoption, being point of reference for AI related matters, and being involved in the development of AI applications to help the company improve its operations and services.
+        highlights:
+          - Gathered requirements from Senior Manager to understand current pain points of department adopting Google Sheet with Gemini functionality.
+          - Developed automation script for data extraction and data transformation from Microsoft Excel into Google Sheet using Apps Script.
+          - Created file management system using Google Drive API, integrating Workspace studio as a single source of truth for all project files and documents, which is accessible to all team members.
+
       - company: Perodua Sdn. Bhd.
         position: System Engineer, Big Data Department
         location: Rawang, Malaysia
