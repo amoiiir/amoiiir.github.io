@@ -68,7 +68,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/cv_amir_hamzah_20260411.pdf", "_blank");
+          window.open("/assets/pdf/CV_AmirHamzah_SoftwareDevelopment.pdf", "_blank");
         },
       },{
         id: 'social-email_social',
